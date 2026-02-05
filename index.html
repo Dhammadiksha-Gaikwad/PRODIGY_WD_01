@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>Responsive Landing Page</title>
+<link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<!-- ========== NAVBAR ========== -->
+<header>
+  <div class="navbar">
+    <div class="logo">MyLanding</div>
+    <ul>
+      <li><a href="#home">Home</a></li>
+      <li><a href="#features">Features</a></li>
+      <li><a href="#footer">Contact</a></li>
+    </ul>
+  </div>
+</header>
+
+<header>
+  <div class="navbar">
+    <div class="logo">MY LANDING PAGE </div>
+
+    <!-- Hamburger Icon -->
+    <div class="menu-icon" onclick="toggleMenu()">O 
+      &#9776;
+    </div>
+
+    <!-- Menu -->
+    <ul id="menu">
+      <li><a href="#home">Home</a></li>
+      <li><a href="#features">Features</a></li>
+      <li><a href="#footer">Contact</a></li>
+    </ul>
+  </div>
+</header>
+
+<!-- ========== HERO ========== -->
+<section class="hero" id="home">
+  <h1>Build Something Amazing</h1>
+  <p>
+    A modern responsive landing page designed with HTML, CSS, and JavaScript.
+    Fully optimized for all devices.
+  </p>
+  <button onclick="scrollToFeature()">Explore Features</button>
+</section>
+
+<!-- ========== FEATURES ========== -->
+<section class="features" id="features">
+  <h2 class="section-title">Awesome Features</h2>
+
+  <div class="feature-box">
+
+    <div class="card">
+      <h3>Responsive Design</h3>
+      <p>Looks perfect on mobile, tablet, and desktop.</p>
+    </div>
+
+    <div class="card">
+      <h3>Modern UI</h3>
+      <p>Clean layout with smooth animations.</p>
+    </div>
+
+    <div class="card">
+      <h3>Fast & Lightweight</h3>
+      <p>Optimized with semantic HTML and CSS.</p>
+    </div>
+
+  </div>
+</section>
+
+<!-- ========== FOOTER ========== -->
+<footer id="footer">
+  <p>© 2025 MyLanding | All Rights Reserved</p>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
